@@ -1,0 +1,19 @@
+<!-- <script src="./src/index.js"></script> -->
+<!-- <script>
+  (function (list) {
+    function require (file) {
+      var exports = {};
+      (function (exports, code) {
+        eval(code);
+      })(exports, list[file]);
+      return exports;
+    }
+    require("index.js");
+  })({
+    "index.js": ` var add = require('add.js').default;console.log(add(4,2))  `,
+    "add.js": `exports.default = function(a,b){return a + b}`,
+  });
+
+</script> -->
+
+<script src="./src/index.js" type="module"></script>
